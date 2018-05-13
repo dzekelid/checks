@@ -19,14 +19,14 @@ specificationVersion: "0.14"
 apis:
 - name: Google Compute Engine API Update Health Check
   description: Updates a HealthCheck resource in the specified project using the data
-    included in the request. This method supports patch semantics.
+    included in the request.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
   baseURL: http:://www.googleapis.com//compute/v1/projects
   tags: Checks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/project-global-healthchecks-healthcheck-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/project-global-healthchecks-healthcheck-put.md
 x-common:
 - type: x-code
   url: https://cloud.google.com/compute/docs/api/libraries
