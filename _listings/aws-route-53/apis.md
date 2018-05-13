@@ -31,22 +31,18 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/aws-route-53/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Route 53 API Delete Health Check
-  description: Deletes a health check. Send a DELETE request to the/2013-04-01/healthcheck/health
-    check ID            resource.ImportantAmazon Route 53 does not prevent you from
-    deleting a health check even if the health check isassociated with one or more
-    resource record sets. If you delete a health check and you don'tupdate the associated
-    resource record sets, the future status of the health check can't bepredicted
-    and may change. This will affect the routing of DNS queries for your DNS failoverconfiguration.
-    For more information, see Replacing and Deleting Health Checks in the Amazon Route
-    53 Developer Guide.
+- name: AWS Route 53 API Get Health Check
+  description: Gets information about a specified health check. Send a GET request
+    to the/2013-04-01/healthcheck/health check ID             resource. Formore information
+    about using the console to perform this operation, see Amazon Route 53 Health
+    Checks and DNS Failover in theAmazon Route 53 Developer Guide.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
   humanURL: https://aws.amazon.com/route53/
   baseURL: http:://{host}//
   tags: Checks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/aws-route-53/2013-04-01-healthcheck-healthcheckid-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/aws-route-53/2013-04-01-healthcheck-healthcheckid-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/Route53/latest/APIReference/
