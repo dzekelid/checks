@@ -17,18 +17,16 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Compute Engine API Get Health Check
-  description: Returns the specified HealthCheck resource. Get a list of available
-    health checks by making a list() request.
+- name: Google Compute Engine API Update Health Check
+  description: Updates a HealthCheck resource in the specified project using the data
+    included in the request. This method supports patch semantics.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
   baseURL: http:://www.googleapis.com//compute/v1/projects
   tags: Checks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/project-global-healthchecks-healthcheck-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/project-global-healthchecks-healthcheck-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/project-global-healthchecks-healthcheck-patch.md
 x-common:
 - type: x-code
   url: https://cloud.google.com/compute/docs/api/libraries
