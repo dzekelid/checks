@@ -31,21 +31,19 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/aws-route-53/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Route 53 API List Health Checks
-  description: Retrieve a list of your health checks. Send a GET request to the/2013-04-01/healthcheck
-    resource. The response to this request includes aHealthChecks element with zero
-    or more HealthCheck child elements.By default, the list of health checks is displayed
-    on a single page. You can control thelength of the page that is displayed by using
-    the MaxItems parameter. You can usethe Marker parameter to control the health
-    check that the list beginswith.For information about listing health checks using
-    the Amazon Route 53 console, see Amazon Route 53 Health Checks and DNS Failover.
+- name: AWS Route 53 API Update Health Check
+  description: Updates an existing health check.Send a POST request to the /2013-04-01/healthcheck/health
+    check ID             resource. Therequest body must include a document with an
+    UpdateHealthCheckRequestelement. For more information about updating health checks,
+    see Creating, Updating, and DeletingHealth Checks in the Amazon Route 53 Developer
+    Guide.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
   humanURL: https://aws.amazon.com/route53/
   baseURL: http:://{host}//
   tags: Checks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/aws-route-53/2013-04-01-healthcheck-marker-marker-amp;maxitems-maxitems-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/aws-route-53/2013-04-01-healthcheck-healthcheckid-post.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/Route53/latest/APIReference/
