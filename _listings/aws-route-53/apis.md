@@ -31,18 +31,16 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/aws-route-53/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Route 53 API Get Health Check
-  description: Gets information about a specified health check. Send a GET request
-    to the/2013-04-01/healthcheck/health check ID             resource. Formore information
-    about using the console to perform this operation, see Amazon Route 53 Health
-    Checks and DNS Failover in theAmazon Route 53 Developer Guide.
+- name: AWS Route 53 API Get Health Check Count
+  description: To retrieve a count of all your health checks, send a GET request to
+    the/2013-04-01/healthcheckcount resource.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
   humanURL: https://aws.amazon.com/route53/
   baseURL: http:://{host}//
   tags: Checks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/aws-route-53/2013-04-01-healthcheck-healthcheckid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/aws-route-53/2013-04-01-healthcheckcount-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/Route53/latest/APIReference/
