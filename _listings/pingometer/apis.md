@@ -16,15 +16,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/pingometer/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Checks API Checks {checkId} Results {millisecondsUtc}?detail_level={detail_level}
-  description: Gets a specific check result by a numeric java timestamp.
+- name: Checks API Checks {checkId} Results?mostrecent={mostrecent}&amp;detail_level={detail_level}
+  description: Gets the most recent check results.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Pingometer-Full-Logo.png
   humanURL: https://pingometer.com/
   baseURL: https://api.pingdom.com//
   tags: Checks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/pingometer/checks-checkid-results-millisecondsutc-detail-level-detail-level-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/pingometer/checks-checkid-results-mostrecent-mostrecent-amp;detail-level-detail-level-get.md
 x-common:
 - type: x-blog
   url: https://pingometer.com/blog/
