@@ -33,9 +33,9 @@ apis:
   tags: Checks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/microsoft-graph/me-checkmembergroups-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/microsoft-graph/users-id-|-userprincipalname-checkmembergroups-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/microsoft-graph/me-checkmembergroups-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/microsoft-graph/users-id-|-userprincipalname-checkmembergroups-post-postman.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
