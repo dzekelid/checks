@@ -31,14 +31,14 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/project-global-httphealthchecks-get-postman.md
 - name: Google Compute Engine API Update HTTP Health Check
   description: Updates a HttpHealthCheck resource in the specified project using the
-    data included in the request. This method supports patch semantics.
+    data included in the request.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
   baseURL: http:://www.googleapis.com//compute/v1/projects
   tags: Checks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/project-global-httphealthchecks-httphealthcheck-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/project-global-httphealthchecks-httphealthcheck-put.md
 x-common:
 - type: x-code
   url: https://cloud.google.com/compute/docs/api/libraries
