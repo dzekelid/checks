@@ -29,16 +29,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/project-global-httphealthchecks-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/project-global-httphealthchecks-get-postman.md
-- name: Google Compute Engine API Create HTTP Health Check
-  description: Creates a HttpHealthCheck resource in the specified project using the
-    data included in the request.
+- name: Google Compute Engine API Delete HTTP Health Check
+  description: Deletes the specified HttpHealthCheck resource.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
   baseURL: http:://www.googleapis.com//compute/v1/projects
   tags: Checks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/project-global-httphealthchecks-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/project-global-httphealthchecks-httphealthcheck-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/project-global-httphealthchecks-httphealthcheck-delete-postman.md
 x-common:
 - type: x-code
   url: https://cloud.google.com/compute/docs/api/libraries
