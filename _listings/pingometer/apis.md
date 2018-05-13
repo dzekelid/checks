@@ -16,16 +16,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/pingometer/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Checks API Checks
-  description: Gets a list of all checks that are visible to you as a user or a customer
-    depending on the request context.
+- name: Checks API Checks {checkId}
+  description: Gets info about a check, current SLA, last result and its status.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Pingometer-Full-Logo.png
   humanURL: https://pingometer.com/
   baseURL: https://api.pingdom.com//
   tags: Checks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/pingometer/checks-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/pingometer/checks-checkid-get.md
 x-common:
 - type: x-blog
   url: https://pingometer.com/blog/
