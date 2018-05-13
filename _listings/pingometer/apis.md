@@ -16,15 +16,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/pingometer/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Checks API Checks {checkId} Results?fromUtc={fromUtc}&amp;toUtc={toUtc}&amp;detail_level={detail_level}
-  description: Gets check results between two dates.
+- name: Checks API Get Check List
+  description: Returns a list overview of all checks.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Pingometer-Full-Logo.png
   humanURL: https://pingometer.com/
   baseURL: https://api.pingdom.com//
   tags: Checks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/pingometer/checks-checkid-results-fromutc-fromutc-amp;toutc-toutc-amp;detail-level-detail-level-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/pingometer/api-version-checks-get.md
 x-common:
 - type: x-blog
   url: https://pingometer.com/blog/
