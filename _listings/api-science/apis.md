@@ -1,21 +1,42 @@
 ---
 name: API Science
+x-slug: api-science
 description: Traditional monitoring services were designed long before APIs became
   core to modern applications. API Science is designed specifically for monitoring
   APIs. Sure, we understand REST, JSON, OAuth, XML. No problem.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- My API Stack
-- Monitoring
-- API LIfeycle
-created: "2018-05-13"
-modified: "2018-05-13"
+x-alexaRank: "0"
+tags: Checks
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/api-science/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: API Science Get Checks For A Monitor
+  x-api-slug: api-science
+  description: Get Checks For A Monitor
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
+  humanURL: http://apiscience.com
+  baseURL: https://///monitors/{id}/checks.json
+  tags: Checks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/api-science/monitorsidchecks-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/api-science/monitorsidchecks-json-get-openapi.md
+- name: API Science
+  x-api-slug: api-science
+  description: Traditional monitoring services were designed long before APIs became
+    core to modern applications. API Science is designed specifically for monitoring
+    APIs. Sure, we understand REST, JSON, OAuth, XML. No problem.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
+  humanURL: http://apiscience.com
+  baseURL: https:///
+  tags: Checks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/api-science/openapi.md
 x-common:
 - type: x-base-url
   url: http://api.apiscience.com
@@ -33,6 +54,8 @@ x-common:
   url: https://www.apiscience.com/terms
 - type: x-twitter
   url: https://twitter.com/APIScience
+- type: x-website
+  url: http://apiscience.com
 - type: x-website
   url: http://www.apiscience.com/
 include: []
