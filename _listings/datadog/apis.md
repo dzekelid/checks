@@ -6,8 +6,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-data
 x-kinRank: "8"
 x-alexaRank: "13593"
 tags: Checks
-created: "2018-06-17"
-modified: "2018-06-17"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/datadog/apis.md
 specificationVersion: "0.14"
 apis:
