@@ -6,34 +6,30 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-data
 x-kinRank: "8"
 x-alexaRank: "13593"
 tags: Checks
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/datadog/apis.md
 specificationVersion: "0.14"
 apis:
-- name: DataDog API Add Check Run
-  x-api-slug: datadog-api
+- name: DataDog Merged API - Add Check Run
+  x-api-slug: check-run-post
   description: Post a Check Run
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
-  baseURL: https:///api/v1///check_run
-  tags: Monitoring,Checks, Run
+  baseURL: https:///api/v1/
+  tags: Monitoring, Performance, Orchestration, Aggregation, Stack Network, SaaS,
+    Technology, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/datadog/check-run-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/datadog/check-run-post-openapi.md
-- name: DataDog API
-  x-api-slug: datadog-api
-  description: See inside any stack, any app, at any scale, anywhere.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
-  humanURL: https://www.datadoghq.com/
-  baseURL: https:///api/v1/
-  tags: Checks
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/datadog/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://dataatwork.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://datadog.stack.network
 - type: x-blog
   url: https://www.datadoghq.com/blog/
 - type: x-blog-rss

@@ -12,84 +12,76 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Checks
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/microsoft-graph/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Microsoft Graph Check Member Groups
-  x-api-slug: microsoft-graph
+- name: Microsoft Graph API - Check Member Groups
+  x-api-slug: mecheckmembergroups-post
   description: Check member groups Check for membership in a specified list of groups,
     and returns from that list those groups of which the specified user, group, or
     directory object is a member. This function is transitive.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
   humanURL: https://developer.microsoft.com/en-us/graph/
-  baseURL: https://graph.microsoft.com////me/checkMemberGroups
-  tags: Checks, Member, Groups
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/microsoft-graph/mecheckmembergroups-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/microsoft-graph/mecheckmembergroups-post-openapi.md
-- name: Microsoft Graph Check Member Groups
-  x-api-slug: microsoft-graph
+- name: Microsoft Graph API - Check Member Groups
+  x-api-slug: usersid--userprincipalnamecheckmembergroups-post
   description: Check member groups Check for membership in a specified list of groups,
     and returns from that list those groups of which the specified user, group, or
     directory object is a member. This function is transitive.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
   humanURL: https://developer.microsoft.com/en-us/graph/
-  baseURL: https://graph.microsoft.com////users/{id | userPrincipalName}/checkMemberGroups
-  tags: Checks, Member, Groups
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/microsoft-graph/usersid--userprincipalnamecheckmembergroups-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/microsoft-graph/usersid--userprincipalnamecheckmembergroups-post-openapi.md
-- name: Microsoft Graph Group Check Member Groups
-  x-api-slug: microsoft-graph
+- name: Microsoft Graph API - Group Check Member Groups
+  x-api-slug: groupsidcheckmembergroups-post
   description: 'group: checkMemberGroups Check for membership in the specified list
     of groups. Returns from the list those groups of which the specified group has
     a direct or transitive membership.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
   humanURL: https://developer.microsoft.com/en-us/graph/
-  baseURL: https://graph.microsoft.com////groups/{id}/checkMemberGroups
-  tags: Group, Checks, Member, Groups
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/microsoft-graph/groupsidcheckmembergroups-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/microsoft-graph/groupsidcheckmembergroups-post-openapi.md
-- name: Microsoft Graph Check Member Groups
-  x-api-slug: microsoft-graph
+- name: Microsoft Graph API - Check Member Groups
+  x-api-slug: directoryobjectsidcheckmembergroups-post
   description: Check member groups Check for membership in a specified list of groups,
     and returns from that list those groups of which the specified user, group, or
     directory object is a member. This function is transitive.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
   humanURL: https://developer.microsoft.com/en-us/graph/
-  baseURL: https://graph.microsoft.com////directoryObjects/{id}/checkMemberGroups
-  tags: Checks, Member, Groups
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/microsoft-graph/directoryobjectsidcheckmembergroups-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/microsoft-graph/directoryobjectsidcheckmembergroups-post-openapi.md
-- name: Microsoft Graph
-  x-api-slug: microsoft-graph
-  description: 'Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft
-    cloud services through a single endpoint: https://graph.microsoft.com. Microsoft
-    Graph simplifies queries that would otherwise be more complex. You can use Microsoft
-    Graph to: Access data from multiple Microsoft cloud services, including Azure
-    Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive,
-    OneNote, and Planner. Navigate between entities and relationships. Access intelligence
-    and insights from the Microsoft cloud (for commercial users).'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
-  humanURL: https://developer.microsoft.com/en-us/graph/
-  baseURL: https://graph.microsoft.com//
-  tags: Checks
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/microsoft-graph/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://messente.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://microsoft.graph.stack.network
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
 - type: x-documentation
