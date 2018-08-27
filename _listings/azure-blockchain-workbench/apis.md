@@ -11,11 +11,33 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Checks
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/azure-blockchain-workbench/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Azure Blockchain Workbench REST API - Get Capabilities Can Create Contract
+  x-api-slug: apiv1capabilitiescancreatecontractworkflowid-get
+  description: Checks if user has capability to create new smart contract instance
+    for a specific workflow ID.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-blockchain.png
+  humanURL: https://docs.microsoft.com/en-us/rest/api/azure-blockchain-workbench/
+  baseURL: https:////
+  tags: Blockchain, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/azure-blockchain-workbench/apiv1capabilitiescancreatecontractworkflowid-get-openapi.md
+- name: Azure Blockchain Workbench REST API - Post Checkers Check Application
+  x-api-slug: apiv1checkerscheckapplication-post
+  description: Checks if the supplied application configuration file is valid for
+    Workbench.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-blockchain.png
+  humanURL: https://docs.microsoft.com/en-us/rest/api/azure-blockchain-workbench/
+  baseURL: https:////
+  tags: Blockchain, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/azure-blockchain-workbench/apiv1checkerscheckapplication-post-openapi.md
 x-common:
 - type: x-blog
   url: https://azure.microsoft.com/en-us/blog/topics/blockchain/

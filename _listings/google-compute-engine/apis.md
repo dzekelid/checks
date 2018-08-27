@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Checks
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/apis.md
 specificationVersion: "0.14"
 apis:
@@ -27,6 +27,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/projectglobalhealthchecks-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/projectglobalhealthchecks-get-openapi.md
+- name: Compute Engine - Create Health Check
+  x-api-slug: projectglobalhealthchecks-post
+  description: Creates a HealthCheck resource in the specified project using the data
+    included in the request.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
+  humanURL: https://cloud.google.com/compute/
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/projectglobalhealthchecks-post-openapi.md
 - name: Compute Engine - Delete Health Check
   x-api-slug: projectglobalhealthcheckshealthcheck-delete
   description: Deletes the specified HealthCheck resource.
@@ -54,6 +66,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/projectglobalhealthcheckshealthcheck-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/projectglobalhealthcheckshealthcheck-get-openapi.md
+- name: Compute Engine - Update Health Check
+  x-api-slug: projectglobalhealthcheckshealthcheck-patch
+  description: Updates a HealthCheck resource in the specified project using the data
+    included in the request. This method supports patch semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
+  humanURL: https://cloud.google.com/compute/
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/projectglobalhealthcheckshealthcheck-patch-openapi.md
+- name: Compute Engine - Update Health Check
+  x-api-slug: projectglobalhealthcheckshealthcheck-put
+  description: Updates a HealthCheck resource in the specified project using the data
+    included in the request.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
+  humanURL: https://cloud.google.com/compute/
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/projectglobalhealthcheckshealthcheck-put-openapi.md
 - name: Compute Engine - Get HTTP Health Checks
   x-api-slug: projectglobalhttphealthchecks-get
   description: Retrieves the list of HttpHealthCheck resources available to the specified
@@ -68,6 +104,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/projectglobalhttphealthchecks-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/projectglobalhttphealthchecks-get-openapi.md
+- name: Compute Engine - Create HTTP Health Check
+  x-api-slug: projectglobalhttphealthchecks-post
+  description: Creates a HttpHealthCheck resource in the specified project using the
+    data included in the request.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
+  humanURL: https://cloud.google.com/compute/
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/projectglobalhttphealthchecks-post-openapi.md
 - name: Compute Engine - Delete HTTP Health Check
   x-api-slug: projectglobalhttphealthcheckshttphealthcheck-delete
   description: Deletes the specified HttpHealthCheck resource.
@@ -95,6 +143,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/projectglobalhttphealthcheckshttphealthcheck-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/projectglobalhttphealthcheckshttphealthcheck-get-openapi.md
+- name: Compute Engine - Update HTTP Health Check
+  x-api-slug: projectglobalhttphealthcheckshttphealthcheck-patch
+  description: Updates a HttpHealthCheck resource in the specified project using the
+    data included in the request. This method supports patch semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
+  humanURL: https://cloud.google.com/compute/
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/projectglobalhttphealthcheckshttphealthcheck-patch-openapi.md
+- name: Compute Engine - Update HTTP Health Check
+  x-api-slug: projectglobalhttphealthcheckshttphealthcheck-put
+  description: Updates a HttpHealthCheck resource in the specified project using the
+    data included in the request.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
+  humanURL: https://cloud.google.com/compute/
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/projectglobalhttphealthcheckshttphealthcheck-put-openapi.md
 - name: Compute Engine - Get HTTPS Health Checks
   x-api-slug: projectglobalhttpshealthchecks-get
   description: Retrieves the list of HttpsHealthCheck resources available to the specified
@@ -109,6 +181,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/projectglobalhttpshealthchecks-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/projectglobalhttpshealthchecks-get-openapi.md
+- name: Compute Engine - Create HTTPS Health Check
+  x-api-slug: projectglobalhttpshealthchecks-post
+  description: Creates a HttpsHealthCheck resource in the specified project using
+    the data included in the request.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
+  humanURL: https://cloud.google.com/compute/
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/projectglobalhttpshealthchecks-post-openapi.md
 - name: Compute Engine - Delete HTTPS Health Check
   x-api-slug: projectglobalhttpshealthcheckshttpshealthcheck-delete
   description: Deletes the specified HttpsHealthCheck resource.
@@ -136,6 +220,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/projectglobalhttpshealthcheckshttpshealthcheck-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/projectglobalhttpshealthcheckshttpshealthcheck-get-openapi.md
+- name: Compute Engine - Update HTTPS Health Check
+  x-api-slug: projectglobalhttpshealthcheckshttpshealthcheck-patch
+  description: Updates a HttpsHealthCheck resource in the specified project using
+    the data included in the request. This method supports patch semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
+  humanURL: https://cloud.google.com/compute/
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/projectglobalhttpshealthcheckshttpshealthcheck-patch-openapi.md
+- name: Compute Engine - Update HTTPS Health Check
+  x-api-slug: projectglobalhttpshealthcheckshttpshealthcheck-put
+  description: Updates a HttpsHealthCheck resource in the specified project using
+    the data included in the request.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
+  humanURL: https://cloud.google.com/compute/
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checks/master/_listings/google-compute-engine/projectglobalhttpshealthcheckshttpshealthcheck-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.cloud.vision.api.gallery.streamdata.io

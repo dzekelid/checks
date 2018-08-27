@@ -7,13 +7,13 @@ info:
   description: Updates a check.
   version: 1.0.0
 host: api.pingdom.com
-basePath: /
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   '/checks ':
     ' get ':
